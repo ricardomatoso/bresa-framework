@@ -12,4 +12,4 @@ LICENÇA: MIT and GPL License - http://www.opensource.org/licenses/mit-license.p
 
 ****** Change-log ******
 1.0
-	- Inicio	
+	- Inicio
