@@ -1,9 +1,9 @@
 ﻿****** Bresa front-end framework - versão 1.0 ******
 Colaboradores:
-Bruno Souza - http://
+Bruno Souza - http://www.brunomacaco.com.br/
 Davidson Santana - http://
 Suelen Marques - http://
-Ricardo Matoso - http://ricardo
+Ricardo Matoso - http://ricardomatoso.com
 
 
 ****** Licença ******
