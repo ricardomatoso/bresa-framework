@@ -1,0 +1,130 @@
+/*CSS reset*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,
+em,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,
+var,dl,dt,dd,ol,ul,li,fieldset, form,label,legend,table,caption,
+tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:inherit;font-style:normal;font-size:100%;font-family:inherit;vertical-align:baseline;outline:0;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+/*end / CSS reset*/
+
+/*CSS Default*/
+#header,#content,#footer{float:none;clear:both;}
+#container,#header,#content,#footer{overflow:auto;zoom:1}
+a{text-decoration:none;}a:hover{text-decoration:underline;}
+input,select,textarea{font:11px arial,helvetica,"sans Serif",clean,sans-serif;}
+legend{display:none}label{cursor:pointer;cursor:hand;}:focus{outline:0;}
+
+body{font:11px arial,helvetica,"sans Serif",clean,sans-serif;background:#999}
+#wrap{width:968px;margin:0 auto;background:#fff}
+/*end / CSS Default*/
+
+/*position*/
+.clear {clear:both}
+.right {float:right}
+.left {float:left}
+/* end / position */
+
+/* hide elements */
+.hide {display:none}
+/*end / hide elements */
+
+
+/*header*/
+#header{margin:7px;}
+#header h1{width:954px;height:100px;background:#f19c4a}
+/*end / header*/
+
+/*content*/
+#content{padding:0 0 7px}
+#content #aside{width:233px;margin:0 7px;padding:11px 16px 20px;float:right;background:#cf9c9c}
+#content #aside h3{font-size:28px}
+#content #aside a{color:#000}
+#content #aside em a{margin:0 0 15px;padding:0 0 0 15px;font-weight:700}
+#content #aside .search{padding:0 0 25px}
+#content #aside .search li{float:left}
+#content #aside .search label{margin:0 0 13px;font-size:28px;display:block}
+#content #aside .search input{width:150px;height:28px;margin:0 5px 0 0;padding:0 5px;float:left;border:1px solid #000}
+#content #aside .search .bt{width:auto;height:auto;margin:0;padding:0;border:0}
+
+#content #aside .categories ul{margin:15px 0 0}
+#content #aside .categories li{width:233px;margin:0 0 5px;padding:0 0 12px;float:left}
+
+#content #aside .tags p{line-height:20px}
+#content #aside .tags .tag1{font-size:11px}
+#content #aside .tags .tag2{font-size:14px}
+#content #aside .tags .tag3{font-size:18px}
+#content #aside .tags .tag4{font-size:22px}
+
+
+#content #main{width:618px;padding:31px 31px 80px 32px;float:right;background:#aba060}
+#content #main a{color:#000}
+#content #main .article{margin:0 0 31px;padding:0 0 31px;float:left;border-bottom:1px solid #000}
+#content #main .article p{width:618px;margin:0 0 18px;line-height:18px;clear:both}
+#content #main .article .figure{margin:5px 0 15px;float:left}
+#content #main .article .figure .figcaption{width:618px;}
+#content #main .article .url{width:470px;float:left}
+
+#content #main .article .title{margin:0 0 10px;float:left}
+#content #main .article .title h2{width:567px;float:left;font:700 26px arial;}
+#content #main .article .title em{width:567px;margin:1px 0 0;float:left;color:#fff100}
+#content #main .article .title em a{color:#fff100}
+#content #main .article .title .date{width:49px;float:left;text-align:left}
+#content #main .article .title .date .day{font:700 34px arial;color:#fff100;line-height:30px}
+#content #main .article .title .date .month{float:left;font:700 16px arial;color:#ec1c24;text-transform:uppercase}
+#content #main .article .title .country{padding:2px;float:right;border:1px solid #fff}
+#content #main .article .title .country img{float:left}
+
+#content #main .article .subscribe{width:132px;float:right}
+#content #main .article .subscribe li{float:left}
+#content #main .article .subscribe a{width:16px;height:16px;margin:0 0 0 5px;background:url(../img/socialMedias.gif) no-repeat 0 0;display:block;text-indent:-999em}
+#content #main .article .subscribe .facebook{background-position:0 0}
+#content #main .article .subscribe .delicius{background-position:-22px 0}
+#content #main .article .subscribe .technorati{background-position:-43px 0}
+#content #main .article .subscribe .rss{background-position:-64px 0}
+#content #main .article .subscribe .stumbleupon{background-position:-85px 0}
+#content #main .article .subscribe .digg{width:22px;background-position:-103px 0}
+
+#content #main .article .tools{width:618px;margin:0 0 33px;float:left}
+#content #main .article .tools li{float:left;font-weight:700}
+#content #main .article .tools li a{height:20px;margin:0 13px 0 0;padding:0 0 0 37px;float:left;background:url(../img/tools.gif) no-repeat 0 0}
+#content #main .article .tools .t1{background-position:0 0}
+#content #main .article .tools .t2{background-position:0 -40px}
+
+#content #main .pages{width:618px;float:left;text-align:center}
+#content #main .pages ul li{display:inline;font:700 14px arial}
+#content #main .pages ul li a{padding:0 2px;text-decoration:none}
+#content #main .pages ul li a:hover{text-decoration:underline}
+#content #main .pages ul li.select span{font-size:18px;color:#fff105;text-decoration:none}
+#content #main .pages ul li.off{color:#a8a7a7}
+#content #main .pages ul li.ant{padding:0 0 0 24px;margin:0 15px;font-size:24px}
+#content #main .pages ul li.prox{padding:0 24px 0 0;margin:0 15px;font-size:24px}
+
+#content #main .comments{clear:both}
+#content #main .comments li{margin:0 0 14px;padding:0 0 20px;border-bottom:1px solid #000}
+#content #main .comments strong{float:left;font-weight:400;font-size:18px;display:block}
+#content #main .comments em{color:#fff100;display:block;clear:both}
+#content #main .comments p{margin:10px 0 0;display:block}
+#content #main .comments form{width:326px;margin:7px 0 0;float:left}
+#content #main .comments form legend{padding:0 0 20px;font:700 18px arial;display:block}
+#content #main .comments form li{margin:0 0 15px;padding:0;border:0}
+#content #main .comments form input{width:311px;height:21px;padding:0 7px 4px;background:#fff;border:0}
+#content #main .comments form textarea{width:311px;height:155px;margin:0;padding:4px 7px;background:#fff;border:0}
+#content #main .comments form .bt{width:auto;height:auto;padding:0;background:none}
+
+#content #main .search-results{margin:0 0 15px}
+#content #main .search-results h2{margin:0 0 20px;font:700 26px arial}
+#content #main .search-results li{margin:0 0 5px;padding:0 0 19px;border-bottom:1px solid #000}
+#content #main .search-results em{clear:both;display:block;color:#fff105}
+#content #main .search-results em a{color:#fff105}
+#content #main .search-results p{margin:5px 0 0;float:left;font-size:18px}
+#content #main .search-results strong{float:left;font-size:24px;color:#da1a21}
+#content #main .search-results span{margin:0 0 22px;display:block;font-size:18px}
+#content #main .search-results span em{display:inline;clear:none}
+/*end / content*/
+
+/*footer*/
+#footer{}
+#footer .fishy{}
+/*end / footer*/

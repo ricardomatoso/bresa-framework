@@ -1,0 +1,84 @@
+/*CSS reset*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,
+blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,
+em,font,img,ins,kbd,q,s,samp,small,strike,sub,sup,tt,
+var,dl,dt,dd,ol,ul,li,fieldset, form,label,legend,table,caption,
+tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;font-weight:inherit;font-style:normal;font-size:100%;font-family:inherit;vertical-align:baseline;outline:0;}
+table{border-collapse:collapse;border-spacing:0;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+/*end / CSS reset*/
+
+/*CSS Default*/
+#header,#content,#footer{float:none;clear:both;}
+#container,#header,#content,#footer{overflow:auto;zoom:1}
+a{text-decoration:none;}a:hover{text-decoration:underline;}
+input,select,textarea{font:11px arial,helvetica,"sans Serif",clean,sans-serif;}
+legend{display:none}label{cursor:pointer;cursor:hand;}:focus{outline:0;}
+
+body{font:11px arial,helvetica,"sans Serif",clean,sans-serif;}
+/*end / CSS Default*/
+
+/*position*/
+.clear {clear:both}
+.right {float:right}
+.left {float:left}
+/* end / position */
+
+/* hide elements */
+.hide {display:none}
+/*end / hide elements */
+
+
+/*header*/
+#header{}
+#header h1{}
+/*end / header*/
+
+/*content*/
+#content{}
+
+/*CSS gallery*/
+.gallery{width:618px;margin:30px 0;float:left;}
+.gallery .zoom{position:relative;}
+.gallery .zoom .foto{width:618px;overflow:hidden;position:relative;}
+.gallery .zoom .foto #loader{position:absolute;top:50%;left:50%}
+.gallery .zoom .setasNav{width:100%;height:100%;z-index:999}
+.gallery .zoom .setasNav a{width:49%;height:100%;_height:560px;display:block;text-indent:-999em;position:absolute;top:0;background:url(img/setaFotoAnterior.gif) no-repeat 0 -300px}
+.gallery .zoom .setasNav .fotoAnterior{left:3px;}
+.gallery .zoom .setasNav .fotoAnterior:hover{background-position:0 200px}
+.gallery .zoom .setasNav .fotoPosterior{right:3px}
+.gallery .zoom .setasNav .fotoPosterior:hover{background:url(img/setaFotoProxima.gif) no-repeat 100% 200px}
+.gallery .zoom .setasNav .off{cursor:default}
+.gallery .zoom .setasNav .off:hover{background:none}
+
+
+/*navegacao thumbs gallery*/
+.gallery .navThumb{margin:0 0 10px;overflow:hidden;}
+.gallery .navThumb .item{width:22px;height:104px;float:left;position:relative;background:#cecece;}
+.gallery .navThumb .item img{display:block;top:43%;left:6px;position:absolute}
+.gallery .navThumb .item a{width:22px;height:104px;display:block;}
+.gallery .navThumb .item a:hover{background:#ec1c24}
+.gallery .navThumb .anterior{background-position:0 -384px}
+.gallery .navThumb .anterior.on{background-position:0 0}
+.gallery .navThumb .proxima{float:right;background-position:-36px -384px}
+.gallery .navThumb .proxima.on{background-position:-36px 0}
+/*navegacao thumbs gallery / end*/
+
+/*thumbs gallery*/
+.gallery .navThumb .thumbs{width:564px;height:104px;margin:0 0 0 6px;float:left;position:relative;overflow:hidden;}
+.gallery .navThumb .thumbs ol {position:absolute;}
+.gallery .navThumb .thumbs ol li{margin:0 3px 0 0;display:inline;float:left;position:relative}
+.gallery .navThumb .thumbs ol li.select a{cursor:default;}
+.gallery .navThumb .thumbs ol li.select img{border:3px solid #ec1c24}
+.gallery .navThumb .thumbs ol li.noMargin{margin:0}
+.gallery .navThumb .thumbs ol li a{padding:0;display:inline;}
+.gallery .navThumb .thumbs ol li img{border:3px solid #191919;}
+.gallery .navThumb .thumbs ol li img:hover{border:3px solid #ec1c24}
+/*thumbs gallery / end */
+/*end / content*/
+
+/*footer*/
+#footer{}
+#footer .fishy{}
+/*end / footer*/
